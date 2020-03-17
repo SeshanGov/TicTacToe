@@ -235,7 +235,7 @@ if __name__ == "__main__":
         print(displayRules())
         print("Press 'ENTER' to play a new game, or any other key to exit")
         userInput = input()
-        # CHeck if user has pressed ENTER to proceed or not.
+        # Check if user has pressed ENTER to proceed or not.
         if not userInput == "":
             print(f"You have chosen not to proceed. Goodbye {playerName}!")
             letsPlay = False
